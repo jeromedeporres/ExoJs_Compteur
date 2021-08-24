@@ -1,0 +1,43 @@
+/* .title, .form1, .form2 {
+    text-align: center;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 15em;
+    text-align:center;
+    background-color: lightgrey;
+  }
+  
+  .counter {
+    padding: 1em;
+    background-color: linen;
+  }
+  
+  .ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+    padding:0.5em;
+    background-color: wheat;
+  }
+  
+  .ctrl__step {
+    width: 3em;
+    height:2em;
+    background-color: linen;
+    text-align:center;
+  }
+  
+  .ctrl__btn {
+    margin:0.2em;
+    width: 5em;
+    height:3em;
+    background-color: linen;
+  }
